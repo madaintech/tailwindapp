@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container font-['Montserrat'] flex h-screen bg-no-repeat bg-gradient-to-b from-[#bffaa6] to-[#d8fb9d] mx-auto flex-wrap justify-center items-center">
+        <div class="py-28 h-auto rounded-3xl bg-white mx-auto text-center md:w-2/4 sm:w-4/5">
+            <h1 class="text-[#040404] text-2xl mb-2.5 font-bold uppercase">Your wallet is connected!</h1>
+            <p class="text-[#6b6b6b] font-medium text-base mb-5">How many avatars do you want?
+            <p>
+                <img class="mx-auto max-h-14" src="assets/silhouette@2x.png" alt="Avatar Image" />
+            <form>
+                <input type="number" name="quantity" min="1" max="5" class="text-center pl-9 border-2 px-5 font-bold my-2.5 py-1.5 border-[#040404] rounded-[20px] block mx-auto" value="1" aria-label="Enter a number of avatars that you want!">
+                <input type="submit" value="Mint Now" class="bg-[#8435ff] px-8 text-xl my-2.5 uppercase font-bold text-[#ffffff] py-3 mt-3 rounded-[26px]" aria-label="Press the button to submit the form!">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
